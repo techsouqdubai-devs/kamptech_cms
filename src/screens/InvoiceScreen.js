@@ -334,7 +334,9 @@ const InvoicePdf = ({
             </View>
             <View style={styles.tableCol2}>
               <Text style={styles.tableCell2}>
-                <View>{order?.telephone}</View>
+                <View>
+                  <Text>{order?.telephone}</Text>
+                </View>
               </Text>
             </View>
           </View>
