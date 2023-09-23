@@ -537,7 +537,8 @@ const InvoiceScreen = () => {
             </span>
             <span className='text-sm text-gray-500 dark:text-gray-400 block'>
               {order.customer} <br />
-              {order.email}
+              {order.email} <br/>
+              {order?.telephone}
             </span>
           </div>
         </div>
